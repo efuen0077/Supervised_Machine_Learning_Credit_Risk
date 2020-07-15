@@ -8,7 +8,7 @@ recall scores.
 ✓ Describes the balanced
 accuracy score.
 
-#### ****Oversampling vs Undersampling vs Combination****
+****Oversampling vs Undersampling vs Combination****
 
 
 #### Ensemble
