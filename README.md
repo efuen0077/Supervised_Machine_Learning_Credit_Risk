@@ -13,7 +13,7 @@ accuracy score.
 - Naive Random Oversampler: balanced accuracy score = 0.66 (or 66%) | 66 True Negatives | 6208 False Negatives |
 35 False Positives | 10896 True Positives.
 
-
+There is an immense amount of false negatives (6208), which is NOT IDEAL for the model we are trying to work with. The imbalanced classification report shows this with a 0.01 precision. A recall of 0.65 is also not ideal. 
 
 - Synthetic Minority Oversampling Technique (SMOTE): balanced accuracy score = 0.66 (or 66%) | 67 True Negatives
 5978 False Negatives | 34 False Positives | 11126 True Positives.
