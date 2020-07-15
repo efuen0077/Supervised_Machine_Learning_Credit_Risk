@@ -32,12 +32,12 @@ When creating our features and target for our data, we wanted our X value to NOT
 - BalancedRandomForestClassifier: accuracy score = .99 (99%) | 35 True Negatives | 7 False Negatives |
 66 False Positives | 17097 True Positives.
 
-
+There are only 7 false negatives, which is fantastic for our model! The imbalanced classification report shows this with a 0.83 precision and 0.35 recall (this is second best out of the 6 models that we have).
 
 - EasyEnsembleClassifier: accuracy score = .93 (or 93%) | 93 True Negatives | 983 False Negatives |
 8 False Positives | 16121 True Positives.
 
-
+With 983 False Negatives, this model shows us the second least amount, which is commendable. The imbalanced classification report shows this with a 0.09 precision and 0.92 recall (this is second best out of the 6 models that we have).
 
 ### Recommendations
 The model that would be the best to use when trying identify good vs risky loans is the Balanced Random Forest CLassifier. This model had the highest accuracy score (99%), precision of 0.83 for high risk, 0.35 recall, the highest amount of True Positives and least amount of false negatives. I will say, however, that the Easy Ensemble Classifier is a close second with an accuracy score of 93%, precision of 0.09 and recall of 0.92 (for high risk classification).
