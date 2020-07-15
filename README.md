@@ -20,7 +20,7 @@ When creating our features and target for our data, we wanted our X value to NOT
 
 The ***BalancedRandomForestClassifier*** method generated an accuracy score of .99 (99%) and a confusion matrix that displayed the following: 35 True Negatives, False Negatives, 66 False Positives, 17097 True Positives. ***ADD STUFF HERE*** The ***EasyEnsembleClassifier*** generated an accuracy score of .93 (or 93%) and a confusion matrix that shows: 93 True Negatives, 983 False Negatives, 8 False Positives, 16121 True Positives. ***ADD STUFF HERE***
 
-### Reccommendations
+### Recommendations
 ✓ Includes a final
 recommendation on the model to
 use, if any.
