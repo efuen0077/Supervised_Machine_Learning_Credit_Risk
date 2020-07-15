@@ -8,7 +8,7 @@ recall scores.
 ✓ Describes the balanced
 accuracy score.
 
-#### Oversampling vs Undersampling vs Combination
+#### Resampling
 
 - Naive Random Oversampler: balanced accuracy score = 0.66 (or 66%) | 66 False Negatives | 6208 True Negatives |
 35 False positives | 10896 True Positives.
