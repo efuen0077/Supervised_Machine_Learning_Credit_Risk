@@ -10,12 +10,13 @@ accuracy score.
 
 #### Resampling
 
-- Naive Random Oversampler: balanced accuracy score = 0.66 (or 66%) | 66 False Negatives | 6208 True Negatives |
-35 False positives | 10896 True Positives.
--- hfhfh
+- Naive Random Oversampler: balanced accuracy score = 0.66 (or 66%) | 66 True Negatives | 6208 False Negatives |
+35 False Positives | 10896 True Positives.
 
-- Synthetic Minority Oversampling Technique (SMOTE): balanced accuracy score = 0.66 (or 66%) | 67 False Negatives
-5978 True Negatives | 34 False Positives | 11126 True Positives.
+
+
+- Synthetic Minority Oversampling Technique (SMOTE): balanced accuracy score = 0.66 (or 66%) | 67 True Negatives
+5978 False Negatives | 34 False Positives | 11126 True Positives.
 
 - Cluster Centroids: balanced accuracy score = 0.66 (or 66%) | 68 True Negatives | 9654 False Negatives | 
 33 False Positives | 7450 True Positives.
