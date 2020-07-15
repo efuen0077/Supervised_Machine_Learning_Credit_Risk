@@ -12,6 +12,7 @@ accuracy score.
 
 - Naive Random Oversampler: balanced accuracy score = 0.66 (or 66%) | 66 False Negatives | 6208 True Negatives |
 35 False positives | 10896 True Positives.
+-- hfhfh
 
 - Synthetic Minority Oversampling Technique (SMOTE): balanced accuracy score = 0.66 (or 66%) | 67 False Negatives
 5978 True Negatives | 34 False Positives | 11126 True Positives.
@@ -34,8 +35,4 @@ When creating our features and target for our data, we wanted our X value to NOT
 8 False Positives | 16121 True Positives.
 
 ### Recommendations
-✓ Includes a final
-recommendation on the model to
-use, if any.
-✓ Provides justification for your
-recommendation.
+The model that would be the best to use when trying identify good vs risky loans is the Balanced Random Forest CLassifier. This model had the highest accuracy score (99%) and the highest amount of True Positives. I will say, however, that the Easy Ensemble Classifier is a close second with an accuracy score of 93%.
