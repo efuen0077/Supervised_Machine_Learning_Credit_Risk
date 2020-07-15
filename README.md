@@ -3,10 +3,6 @@
 ## Challenge
 
 ### Summary and Analysis
-✓ Describes the precision and
-recall scores.
-✓ Describes the balanced
-accuracy score.
 
 #### Resampling
 
